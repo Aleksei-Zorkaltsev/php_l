@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap');
+/*
+font-family: 'Comfortaa', cursive;
+*/
+
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+a{
+    transition: 0.2s;
+}
+.content{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(210,233,255);
+    background: linear-gradient(180deg, rgba(210,233,255,1) 0%, rgba(255,214,214,1) 100%);
+    min-height: 680px;
+}
+
+.registration {
+    background-color: rgba(44, 44, 44, 0.452);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.registration_form{
+    color: black;
+    position: relative;
+    border-radius: 20px;
+    top: calc(50% - 150px);
+    left: calc(50% - 200px);
+    padding-top: 40px;
+    padding-top: 10px;
+    background-color: white;
+    height: 350px;
+    width: 300px;
+}
+.registration_form h3{
+    text-align: center;
+}
+.registration_form a{
+    top: 14px;
+    right: 14px;
+    font-size: 20px;
+    position:absolute;
+    color: rgb(51, 51, 104) !important;
+}
+.registration_form p{
+    text-align: center;
+}
+.registration_form input{
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    width: 200px;
+}
+
+.authentification {
+    background-color: rgba(44, 44, 44, 0.452);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.authentification_form{
+    color: black;
+    position: relative;
+    border-radius: 20px;
+    top: calc(50% - 150px);
+    left: calc(50% - 200px);
+    padding-top: 40px;
+    padding-top: 10px;
+    background-color: white;
+    height: 350px;
+    width: 300px;
+}
+.authentification_form h3{
+    text-align: center;
+}
+.authentification_form a{
+    top: 14px;
+    right: 14px;
+    font-size: 20px;
+    position:absolute;
+    color: rgb(51, 51, 104) !important;
+}
+.authentification_form p{
+    text-align: center;
+}
+.authentification_form input{
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    width: 200px;
+}
+.checkbox_log{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkbox_log p{
+    font-size: 16px;
+    width: 300px;
+}
+.reg_log_submit{
+    margin-top: 20px !important;
+    display: block;
+    background: rgb(131,34,195)!important;
+    background: linear-gradient(148deg, rgba(131,34,195,1) 0%, rgba(150,113,0,1) 100%)!important;
+    border: none;
+    color: white;
+    font-size: 18px;
+    height: 40px !important;
+    width: 200px;
+    font-family: 'Comfortaa', cursive;
+}
+.reg_log a{
+    display: inline-block;
+    margin-left: 20px;
+}
+.reg_log a:hover{
+    color: yellow;
+}
+
+.login_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(160deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 51%, rgba(87,8,126,1) 100%);
+    color:white;
+}
+.login_block a{
+    text-decoration: none;
+    color: white;
+}
+.menu_header{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(131,34,195);
+    background: linear-gradient(148deg, rgba(131,34,195,1) 0%, rgba(150,113,0,1) 100%);
+}
+.menu_header a{
+    display: inline-block;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-right: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+}
+
+.menu_header a:hover{
+    border-color:rgb(185, 185, 255);
+    color: rgb(185, 185, 255);
+}
+.menu_header a:active{
+    border-color: yellow;
+    color: yellow;
+}
+.main_item{
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+    background-color: rgb(32, 22, 41);
+}
+.main_item p{
+    font-family: 'Comfortaa', cursive, sans-serif;
+}
+.main_item button{
+    width: 500px;
+    height: 40px;
+    border: none;
+    transition: 0.2s;
+}
+.main_item button:active{
+    background-color: rgb(123, 119, 180);
+}
+
+.calc1{
+    border-radius: 10px;
+    width: 700px;
+    padding: 10px 20px;
+    background: rgb(134,76,0);  
+    background: linear-gradient(0deg, rgba(134,76,0,1) 0%, rgba(122,0,78,1) 100%);
+}
+.calc2{
+    color: white;
+    border-radius: 10px;
+    width: 700px;
+    padding: 10px 20px;
+    background: rgb(0,12,97);
+    background: linear-gradient(0deg, rgba(0,12,97,1) 0%, rgba(65,0,64,1) 100%);
+}
+.calc2 button{
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background: rgb(0,12,97);
+    background: linear-gradient(0deg, rgba(0,12,97,1) 0%, rgba(65,0,64,1) 100%);
+}
+.feedback_form{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background: rgb(115,198,31);
+    background: linear-gradient(0deg, rgba(115,198,31,1) 0%, rgba(12,85,0,1) 100%);
+    width: 500px;
+}
+.feedback_form input{
+    width: 490px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.submit_feedback{
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive, sans-serif;
+    border: none;
+    border-radius: 10px;
+    width: 497px !important;
+    height: 35px;
+    background: rgb(147,33,131);
+    background: linear-gradient(0deg, rgba(147,33,131,1) 0%, rgba(0,8,78,1) 100%);
+}
+.feedback{
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(166,176,0);
+    background: linear-gradient(0deg, rgba(166,176,0,1) 0%, rgba(0,167,44,1) 100%);
+    width: 500px;
+    color: white;
+}
+.feedback strong{
+    color: rgb(255, 239, 17);
+}
+.feedback p{
+    margin: 5px 0;
+}
+.status_feedback{
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background: rgb(255,56,56);
+    background: linear-gradient(0deg, rgba(255,56,56,1) 0%, rgba(98,0,0,1) 100%);
+}
+
+.feedback a{
+    color: rgb(0, 49, 23);
+}
+.review_form{
+    background-color: rgb(83, 28, 39);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.review{
+    background-color: rgb(51, 69, 90);
+    margin-bottom: 5px;
+    width: 800px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.review a{
+    color: gray;
+}
+.item_catalog img{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid rgb(165, 165, 165);
+}
+.item_catalog{
+    display: inline-block;
+    width: 400px;
+    padding: 10px;
+    overflow: hidden;
+    background: rgb(81,214,233);
+    background: linear-gradient(0deg, rgba(81,214,233,1) 0%, rgba(213,255,143,1) 100%);
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.item_catalog a{
+    text-decoration: none;
+    color: black;
+}
+.catalog_addToCart{
+    display: block;
+    padding-top:10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    background-color: white;
+}
+.item_inCart{
+    color: white;
+    margin-bottom: 5px;
+    display: flex;
+    height: 140px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.item_inCart a{
+    color: violet;
+}
+.cartPrewImg img{
+    margin-right: 30px;
+    object-fit: cover;
+    height: 140px;
+    width: 200px;
+}
